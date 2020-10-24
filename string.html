@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string methods</title>
+</head>
+
+<body>
+    <script>
+        let x = 'dharan kumAr';
+        let y = ' nethaji';
+        let z = ' hari krishna';
+        //charAt()
+        console.log(x.charAt(5));
+        console.log(y.charAt(5));
+        console.log(z.charAt(4));
+        //charcodeAt()
+        console.log(x.charCodeAt(5));
+        console.log(y.charCodeAt(5));
+        console.log(z.charCodeAt(4));
+        //concat()
+        console.log(x.concat(y).concat(z));
+        console.log(x.concat(y, z));
+        //constructor
+        console.log(x.constructor);
+        console.log(y.constructor);
+        console.log(z.constructor);
+        //endsWith()
+        console.log(x.endsWith('k'));
+        console.log(y.endsWith('i'));
+        console.log(z.endsWith('a'));
+        console.log(x.endsWith('dharan', 6));
+        console.log(y.endsWith('i', 8));
+        console.log(z.endsWith('a', 13));
+        //fromcharcode()
+        console.log(String.fromCharCode(110, 97, 105));
+        console.log(String.fromCharCode(97, 110, 105));
+        console.log(String.fromCharCode(105, 110, 97));
+        //includes
+        console.log(x.includes('a'));
+        console.log(x.includes('a'));
+        console.log(x.includes('a'));
+        //indexof()
+        console.log(x.indexOf('a'));
+        console.log(x.indexOf('a', 3));
+        console.log(y.indexOf('a'));
+        console.log(z.indexOf('a'));
+        console.log(z.indexOf('a', 4));
+        //lastindexof()
+        console.log(x.lastIndexOf('n'));
+        console.log(x.lastIndexOf('n', 3));
+        console.log(y.lastIndexOf('n'));
+        console.log(z.lastIndexOf('n'));
+        console.log(z.lastIndexOf('n', 4));
+        //length()
+        console.log(x.length);
+        console.log(y.length);
+        console.log(z.length);
+        //localeCompare()
+        console.log(x.localeCompare(y));
+        console.log(x.localeCompare(z));
+        //match()
+        console.log(x.match(/a/g));
+        console.log(x.match(/a/gi));
+        console.log(y.match(/i/g));
+        console.log(z.match(/i/g));
+        //prototype(not undestand)
+        //repeat()
+        console.log(x.repeat(2));
+        console.log(y.repeat(3));
+        console.log(z.repeat(3));
+        //replace
+        console.log(x.replace('kumAr', 'kumar'));
+        console.log(y.replace('nethaji', 'Nethaji'));
+        console.log(z.replace('hari krishna', 'Hari Krishna'));
+        //search
+        console.log(x.search('kumar'));
+        console.log(x.search(/kumar/i));
+        //slice()
+        console.log(x.slice(0));
+        console.log(x.slice(0, 5));
+        console.log(y.slice(0));
+        console.log(y.slice(0, 6));
+        console.log(z.slice(0));
+        console.log(z.slice(0, 5));
+        //split()
+        console.log(x.split('a'));
+        console.log(y.split(' '));
+        console.log(z.split(' ', 3));
+        //startswith()
+        console.log(x.startsWith('d'));
+        console.log(x.startsWith('k', 7));
+        console.log(y.startsWith('n', 1));
+        console.log(z.startsWith('h', 1));
+        //substr()
+        console.log(x.substr(0, 6));
+        console.log(y.substr(0, 6));
+        console.log(z.substr(0, 6));
+        //substring()
+        console.log(x.substring(0, 6));
+        console.log(y.substring(0, 6));
+        console.log(z.substring(0, 6));
+        //toLocaleLowerCase()
+        console.log(x.toLocaleLowerCase());
+        console.log(y.toLocaleLowerCase());
+        console.log(z.toLocaleLowerCase());
+        //toLocaleUpperCase()
+        console.log(x.toLocaleUpperCase());
+        console.log(y.toLocaleUpperCase());
+        console.log(z.toLocaleUpperCase());
+        //toLowerCase()
+        console.log(x.toLowerCase());
+        console.log(y.toLowerCase());
+        console.log(z.toLowerCase());
+        //toUpperCase()
+        console.log(x.toUpperCase());
+        console.log(y.toUpperCase());
+        console.log(z.toUpperCase());
+        //tostring()
+        console.log(x.toString());
+        console.log(y.toString());
+        console.log(z.toString());
+        //trim()
+        console.log(x.trim());
+        console.log(y.trim());
+        console.log(z.trim());
+        //valueof()
+        console.log(x.valueOf());
+        console.log(y.valueOf());
+        console.log(z.valueOf());
+    </script>
+
+
+</body>
+
+</html>
